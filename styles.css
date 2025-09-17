@@ -380,7 +380,7 @@ body
 @media (orientation: portrait) {
     .mainBoxes
     {
-        width: 50vh;
+        width: 80vw;
         height: 70vh;
     }
 }
@@ -492,17 +492,6 @@ a
     z-index: -2;
     animation-name: animation-gradient-1;
   }
-  .gradient-2 {
-    background: rgb(94, 92, 100);
-    width: 600px;
-    height: 600px;
-    animation-duration: 11s;
-    opacity: 0.6;
-    left: 40%;
-    top: 60%;
-    z-index: -1;
-    animation-name: animation-gradient-2;
-  }
   .gradient-3 {
     background: var(--mainPrpl);
     width: 500px;
@@ -535,25 +524,6 @@ a
         }
       }
       
-      @keyframes animation-gradient-2 {
-        0% {
-          transform: translateY(-50%) translateX(-50%) rotate(40deg) translateX(-20%);
-        }
-        25% {
-          transform: translateY(-50%) translateX(-50%) skew(15deg, 15deg)
-            rotate(110deg) translateX(-5%);
-        }
-        50% {
-          transform: translateY(-50%) translateX(-50%) rotate(210deg) translateX(-35%);
-        }
-        75% {
-          transform: translateY(-50%) translateX(-50%) skew(-15deg, -15deg)
-            rotate(300deg) translateX(-10%);
-        }
-        100% {
-          transform: translateY(-50%) translateX(-50%) rotate(400deg) translateX(-20%);
-        }
-      }
       
       @keyframes animation-gradient-3 {
         0% {
